@@ -1,4 +1,4 @@
-package entity;
+package com.leaf.common.entity;
 
 /**
  * @author YeYaqiao
