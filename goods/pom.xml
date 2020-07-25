@@ -25,10 +25,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-<!--                <configuration>-->
-<!--                    <mainClass>com.miu.web.WebApplication</mainClass>-->
-<!--                    <layout>ZIP</layout>-->
-<!--                </configuration>-->
                 <executions>
                     <execution>
                         <goals>

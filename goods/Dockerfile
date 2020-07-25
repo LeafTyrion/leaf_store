@@ -1,5 +1,5 @@
 FROM java:8
 VOLUME /tmp
-ADD goods-0.0.1-SNAPSHOT.jar app.jar
+ADD /target/goods-0.0.1-SNAPSHOT.jar goods.jar
 EXPOSE 8081
-ENTRYPOINT [ "java", "-jar", "/app.jar" ]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","goods.jar"]
